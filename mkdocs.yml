@@ -1,0 +1,10 @@
+site_name: AHUA13
+site_url: https://jerryweihuajing.com/
+nav:
+- PERSONAL:
+    - Note: Note.md
+    - Reference: Reference.md
+- 3D SENSOR:
+    - Stereo Camera: Stereo Camera.md
+#theme: mkdocs
+theme: readthedocs
