@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="canonical" href="https://jerryweihuajing.com/Note/">
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Note - AHUA13</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../css/theme.css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Note";
+    var mkdocs_page_input_path = "Note.md";
+    var mkdocs_page_url = "/Note/";
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> AHUA13</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <p class="caption"><span class="caption-text">PERSONAL</span></p>
+                <ul class="current">
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">Note</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#python">Python</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#1-anaconda-command-line">1 Anaconda Command Line</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#2-opencv">2 OpenCV</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#3-pytorch">3 PyTorch</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#linux">Linux</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#1-terminal-command-line">1 Terminal Command Line</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Reference/">Reference</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">3D SENSOR</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../Stereo%20Camera/">Stereo Camera</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">AHUA13</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>PERSONAL &raquo;</li>
+        
+      
+    
+    <li>Note</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="note">Note</h1>
+<h2 id="python">Python</h2>
+<h3 id="1-anaconda-command-line">1 Anaconda Command Line</h3>
+<ul>
+<li>查看环境列表：</li>
+</ul>
+<pre><code>conda env list
+</code></pre>
+<p>或</p>
+<pre><code>conda info --env
+</code></pre>
+<ul>
+<li>创建conda环境：</li>
+</ul>
+<pre><code>conda create -n pytorch python=3.8
+</code></pre>
+<ul>
+<li>删除conda环境：</li>
+</ul>
+<pre><code>conda remove -n pytorch --all
+</code></pre>
+<ul>
+<li>conda查看channels：</li>
+</ul>
+<pre><code>conda config --show channels
+</code></pre>
+<ul>
+<li>conda增加channels：</li>
+</ul>
+<pre><code>conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
+conda config --set show_channel_urls yes
+</code></pre>
+<ul>
+<li>conda删除channels：</li>
+</ul>
+<pre><code>conda config --remove channels defaults
+</code></pre>
+<ul>
+<li>更新conda：</li>
+</ul>
+<pre><code>conda update -n base -c defaults conda
+</code></pre>
+<h3 id="2-opencv">2 OpenCV</h3>
+<ul>
+<li>cv2.error: OpenCV(4.5.5) D:\a\opencv-python\opencv-python\opencv\modules\core\src\batch_distance.cpp:275: error: (-215:Assertion failed) type == src2.type() &amp;&amp; src1.cols == src2.cols &amp;&amp; (type == CV_32F || type == CV_8U) in function 'cv::batchDistance'解决方法</li>
+</ul>
+<pre><code>list_descriptor_left = list_descriptor_left.astype(np.uint8)
+</code></pre>
+<h3 id="3-pytorch">3 PyTorch</h3>
+<ol>
+<li>OMP: Error #15: Initializing libiomp5md.dll, but found libiomp5md.dll already initialized.
+   OMP: Hint This means that multiple copies of the OpenMP runtime have been linked into the program. That is dangerous, since it can degrade performance or cause incorrect results. The best thing to do is to ensure that only a single OpenMP runtime is linked into the process, e.g. by avoiding static linking of the OpenMP runtime in any library. As an unsafe, unsupported, undocumented workaround you can set the environment variable KMP_DUPLICATE_LIB_OK=TRUE to allow the program to continue to execute, but that may cause crashes or silently produce incorrect results. For more information, please see http://www.intel.com/software/products/support/.</li>
+</ol>
+<pre><code>os.environ['KMP_DUPLICATE_LIB_OK'] = 'True'
+</code></pre>
+<h2 id="linux">Linux</h2>
+<h3 id="1-terminal-command-line">1 Terminal Command Line</h3>
+<ul>
+<li>make的等同操作：</li>
+</ul>
+<pre><code>make .
+cmake --build .
+</code></pre>
+<ul>
+<li>error: ‘slots_reference’ was not declared in this scope：</li>
+</ul>
+<pre><code class="language-objectivec">sed -i 's/++11/++14/g' CMakeLists.txt
+</code></pre>
+<ul>
+<li>./visualizeGeometry: error while loading shared libraries: libpango_windowing.so: cannot open shared object file: No such file or directory：需要添加系统环境变量</li>
+</ul>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../Reference/" class="btn btn-neutral float-right" title="Reference">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+    
+      <span><a href="../Reference/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme_extra.js" defer></script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>

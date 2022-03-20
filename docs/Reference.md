@@ -30,6 +30,8 @@ Mkdocs中文文档：https://mkdocs.zimoapps.com/#_1
 
 Mkdocs配置和使用：https://zhuanlan.zhihu.com/p/383582472
 
+Mkdocs部署到GitHub：https://blog.csdn.net/qq_41261251/article/details/116021097
+
 Typora激活方法：[Typora序列号](https://blog.csdn.net/weixin_43410827/article/details/122537229?utm_medium=distribute.pc_aggpage_search_result.none-task-blog-2~aggregatepage~first_rank_ecpm_v1~rank_v31_ecpm-1-122537229.pc_agg_new_rank&utm_term=typora序列号&spm=1000.2123.3001.4430)
 
 NVDIA驱动下载：[官方驱动 | NVIDIA](https://www.nvidia.cn/Download/index.aspx?lang=cn)

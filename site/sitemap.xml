@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://jerryweihuajing.com/</loc>
-         <lastmod>2022-03-14</lastmod>
+         <loc>https://jerryweihuajing.com/Note/</loc>
+         <lastmod>2022-03-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jerryweihuajing.com/Reference/</loc>
+         <lastmod>2022-03-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jerryweihuajing.com/Stereo%20Camera/</loc>
+         <lastmod>2022-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
