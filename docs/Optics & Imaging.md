@@ -3,8 +3,6 @@
 - 光心在像平面的前面，一般位于第一片lens和第二片lens之间
 - 无穷远处的光线汇聚在像方焦点，这一原理决定了光圈的大小，物距像距焦距之间的关系![image-20220407171728374](resources/Optics & Imaging/image-20220407171728374.png)
 
-## 
-
 ## 1 Camera Intrinsic
 
 ### 1.1 Focusing
