@@ -20,4 +20,4 @@
 
 ### 3 Requipment
 
-![image-20220424193754048](resources/Line Structured Light/image-20220424193754048.png)
+![image-20220424193754048](resources/Line%20Structured%20Light/image-20220424193754048.png)

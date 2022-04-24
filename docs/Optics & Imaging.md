@@ -1,7 +1,7 @@
 # Optics & Imaging
 
 - 光心在像平面的前面，一般位于第一片lens和第二片lens之间
-- 无穷远处的光线汇聚在像方焦点，这一原理决定了光圈的大小，物距像距焦距之间的关系![image-20220407171728374](resources/Optics & Imaging/image-20220407171728374.png)
+- 无穷远处的光线汇聚在像方焦点，这一原理决定了光圈的大小，物距像距焦距之间的关系![查看源图像](resources/Optics%20&%20Imaging/THINLENS-S-600w.gif)
 
 ## 1 Camera Intrinsic
 
@@ -39,4 +39,4 @@
 
 失焦弥散圆直径与物体的深度之间的关系：
 
-![Diameter of Confusion Circle Curve](resources/Optics%20&%20Imaging/Diameter%20of%20Confusion%20Circle%20Curve-1650809387643.png)
+![Diameter of Confusion Circle Curve](resources/Optics%20&%20Imaging/Diameter%20of%20Confusion%20Circle%20Curve.png)
