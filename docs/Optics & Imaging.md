@@ -39,4 +39,4 @@
 
 失焦弥散圆直径与物体的深度之间的关系：
 
-![Diameter of Confusion Circle Curve](resources/Optics & Imaging/Diameter of Confusion Circle Curve.png)
+![Diameter of Confusion Circle Curve](resources/Optics%20&%20Imaging/Diameter%20of%20Confusion%20Circle%20Curve-1650809387643.png)
