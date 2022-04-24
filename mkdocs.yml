@@ -1,10 +1,30 @@
 site_name: AHUA13
 site_url: https://jerryweihuajing.com/
-nav:
+site_description: python algorithm
+copyright: Copyright @2022 [AHUA13](https://github.com/jerryweihuajing)
+
+nav: 
+- Home: Home.md
 - PERSONAL:
     - Note: Note.md
     - Reference: Reference.md
 - 3D SENSOR:
+    - Optics & Imaging: Optics & Imaging.md
     - Stereo Camera: Stereo Camera.md
-#theme: mkdocs
-theme: readthedocs
+    - 3D ToF: 3D ToF.md
+    - Line Structured Light: Line Structured Light.md
+    - LIDAR: LIDAR.md
+    - Evaluation: Evaluation.md
+    - Deep Learning: Deep Learning.md
+
+theme:
+    # name: readthedocs
+    name: mkdocs
+    nav_style: light
+    custom_dir: docs/resources/
+    highlightjs: true
+    hljs_languages:
+        - yaml
+
+plugins:
+  - search

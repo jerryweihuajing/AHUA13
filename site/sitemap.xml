@@ -1,18 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
+         <loc>https://jerryweihuajing.com/3D%20ToF/</loc>
+         <lastmod>2022-04-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jerryweihuajing.com/Home/</loc>
+         <lastmod>2022-04-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jerryweihuajing.com/LIDAR/</loc>
+         <lastmod>2022-04-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jerryweihuajing.com/Line%20Structured%20Light/</loc>
+         <lastmod>2022-04-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://jerryweihuajing.com/Note/</loc>
-         <lastmod>2022-03-20</lastmod>
+         <lastmod>2022-04-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jerryweihuajing.com/Optics%20%26%20Imaging/</loc>
+         <lastmod>2022-04-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jerryweihuajing.com/Reference/</loc>
-         <lastmod>2022-03-20</lastmod>
+         <lastmod>2022-04-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jerryweihuajing.com/Stereo%20Camera/</loc>
-         <lastmod>2022-03-20</lastmod>
+         <lastmod>2022-04-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
