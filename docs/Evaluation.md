@@ -118,7 +118,7 @@ Percentage of optical flow outliers
 
 Percentage of scene flow outliers (=outliers in either D0, D1 or Fl)
 
-### 2.5 bg
+### 2.5 bg (bkg)
 
 Percentage of outliers averaged only over background regions
 
@@ -187,3 +187,5 @@ mask内误差大于4.0pixel的百分比
 算法视差归一化运行时间（sec/(gigapixels * ndisp)）
 
 ****
+
+![image-20220429100242507](resources/Evaluation/image-20220429100242507.png)

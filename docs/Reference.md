@@ -56,6 +56,10 @@
 
 [gitignore不起作用](https://zhuanlan.zhihu.com/p/334908553)
 
+[remote: Support for password authentication was removed on August 13, 2021](https://blog.csdn.net/yjw123456/article/details/119696726)
+
+
+
 ## C++
 
 [replace替换字符串](https://blog.csdn.net/cai_niaocainiao/article/details/81260902)
@@ -86,13 +90,17 @@
 
 [python读取ply文件](https://blog.csdn.net/weixin_44389243/article/details/106746240)
 
-[intel RealSense python SDK](https://dev.intelrealsense.com/docs/python2)
+[如何使用Python sleep()函数？](https://blog.csdn.net/cunjiu9486/article/details/109075759)
+
+[Python中时间与时间戳之间的转换](https://blog.csdn.net/google19890102/article/details/51355282)
+
+
 
 ### Pycharm
 
 [终端显示中文乱码](https://cloud.tencent.com/developer/article/1674452)
 
-
+[Pycharm中放大和缩小代码界面](https://blog.csdn.net/qq_38563206/article/details/121065835)
 
 
 
@@ -119,6 +127,18 @@
 [opencv-python模板匹配算子选项](https://blog.csdn.net/qq_40344307/article/details/95111626)
 
 [opencv-python模板匹配算公式](https://zhuanlan.zhihu.com/p/101374450)
+
+
+
+## Sensor Module
+
+### Intel RealSense
+
+[intel RealSense python SDK](https://dev.intelrealsense.com/docs/python2)
+
+[RealSense D455的标定并运行VINS-FUSION](https://blog.csdn.net/qq_40186909/article/details/113104595)
+
+[Intel Realsense D435 Post-processing filters 后处理过滤器](https://blog.csdn.net/Dontla/article/details/103574458)
 
 
 
@@ -162,6 +182,8 @@
 
 [python 图像分割方法总结](https://blog.csdn.net/qq_35498696/article/details/107074137)
 
+
+
 ### ISP
 
 [摄像头ISP系统原理](https://zhuanlan.zhihu.com/p/142349249)
@@ -197,6 +219,8 @@
 [Open3D 点云数据处理基础（Python版）](https://blog.csdn.net/weixin_46098577/article/details/120167360)
 
 [PCL(Point Cloud Library)学习指南&资料推荐](https://zhuanlan.zhihu.com/p/268524083)
+
+
 
 ## Optics & Imaging
 
@@ -234,4 +258,4 @@
 
 [花式破解人脸识别技术](https://tech.ifeng.com/c/7gBwDq1OJEu)
 
-
+[一文让你明白什么是面阵固态激光雷达 (Laser Detection and Ranging)](https://www.ebaina.com/articles/140000005027)
