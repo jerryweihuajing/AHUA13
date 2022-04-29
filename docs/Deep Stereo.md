@@ -18,8 +18,6 @@ MSN属于第一种情况
 
 [A Survey on Deep Learning Techniques for Stereo-based Depth Estimation](https://arxiv.org/pdf/2006.02535.pdf)
 
-
-
 测试场景分为两类，一类环境光比较正常的场景（Baseline），另一类为环境光比较复杂的场景（Chanllenge）：
 
 ![image-20220428093936378](resources/Deep%20Stereo/image-20220428093936378.png)
@@ -262,4 +260,22 @@ Evaluation (Bkg, Fg, Bkg+Fg): 9.03-10.54
 
 
 
+## Conclusion
+
 方法1至7由真值深度图监督，而方法8和9是自监督的。
+
+****
+
+| Name            | Supervision Mode | Cost Volume | Platform                | Perforamce (ms) | Memory (GB) | Resolution                                |                     Traning Set                      | Scene                     | Evaluation (Bkg, Fg, Bkg+Fg)       |
+| --------------- | ---------------- | ----------- | ----------------------- | --------------- | ----------- | ----------------------------------------- | :--------------------------------------------------: | ------------------------- | ---------------------------------- |
+| AnyNet          | Supervised       | 3D          | Nvidia Tesla K40 GPU    | 285             | 0.232       | 1240×376, 1242×375                        |                 KITTI2015, KITTI2012                 | Outdoor Driving           | 9.46-11.6, 9.34-10.61              |
+| DeepPruner-Best | Supervised       | 3D          | Nvidia Tesla K40 GPU    | 8343            | 8.845       | 1240×376, 1242×375                        |                 KITTI2015+KITTI2012                  | Outdoor Driving           | 8.74-12.38                         |
+| DeepPruner-Fast | Supervised       | 3D          | Nvidia Tesla K40 GPU    | 3920            | 6.166       | 1240×376, 1242×375                        |                 KITTI2015+KITTI2012                  | Outdoor Driving           | 8.74-9.94                          |
+| DispNet3        | Supervised       | 3D          | Nvidia Tesla K40 GPU    | -               | 10.953      | 960×540                                   | CSS-ft-KITTI, CSS-FlyingThings3D, css-FlyingThings3D | Synthetic Driving         | 8.38-11.11, 9.11-10.19, 9.29-10.61 |
+| GA-Net          | Supervised       | 4D          | Nvidia Tesla K40 GPU    | 8336            | 3.017       | 1240×376, 1242×375                        |                 KITTI2015, KITTI2012                 | Outdoor Driving           | 9.37-9.89, 9.98-11.55              |
+| HighResNet      | Supervised       | 4D          | Nvidia Tesla K40 GPU    | 37              | 0.474       | 2948× 1988, 1240×376, 960×490, 2056× 2464 |         Middleburry, KITTI2015, ETH3D, HR-VS         | Synthetic/Real in/outdoor | 8.58-9.94                          |
+| PSMNet          | Supervised       | 4D          | Nvidia Tesla K40 GPU    | 1314            | 1.9         | 1240×376, 1242×375                        |                 KITTI2015, KITTI2012                 | Outdoor Driving           | 9.8-10.1, 10.17-11.00              |
+| iResNet         | Supervised       | 3D          | Nvidia Tesla K40 GPU    | 939             | 7.656       | 1240×376                                  |                    KITTI2015, ROB                    | Outdoor Driving           | 45.87-61.72, 16.5-22.08            |
+| UnsupAdpt       | Self-supervised  | 3D          | -                       | -               | -           | 1240×376, 1242×375                        |   KITTI2012 adapted to KITTI2015, Shadow-on-Truck    | Outdoor Driving           | 8.52-10.78                         |
+| SegStereo       | Self-supervised  | 3D          | Nvidia GeForce RTX 2080 | 195             | below 12GB  | 2048×1024                                 |                      CityScapes                      | Street scenes             | 9.03-10.54                         |
+

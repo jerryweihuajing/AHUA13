@@ -78,7 +78,7 @@
 
 [C++实现strip、lstrip、rstrip方法](https://blog.csdn.net/u014550279/article/details/50537750)
 
-
+[C++将数据写入文件](https://blog.csdn.net/m0_38128647/article/details/76061420)
 
 ## Python
 

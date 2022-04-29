@@ -185,6 +185,3 @@ mask内误差大于4.0pixel的百分比
 ### 3.13 time/GD
 
 算法视差归一化运行时间（sec/(gigapixels * ndisp)）
-
-****
-
