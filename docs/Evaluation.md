@@ -188,4 +188,3 @@ mask内误差大于4.0pixel的百分比
 
 ****
 
-![image-20220429100242507](resources/Evaluation/image-20220429100242507.png)
