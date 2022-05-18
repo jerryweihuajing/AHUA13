@@ -116,3 +116,13 @@ git config --global http.sslVerify "false"
 
 
 
+## C++
+
+1>D:\Code\GitHub\3D-Sensors\Stereo-Calibration\cpp\Source\stereo_self_calibration.cpp(115,30): warning C4305: “初始化”: 从“double”到“float”截断
+
+IDE不知道小数点后面长度有多长，所以默认为double，所以要强制转为f：
+
+```
+float ratio_threshold = 0.75f;
+```
+

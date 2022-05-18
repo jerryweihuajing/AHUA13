@@ -2,6 +2,8 @@
 
 [代码高亮](http://word.wd1x.com/)
 
+
+
 ## MkDocs
 
 [Mkdocs中文文档](https://blog.csdn.net/p942005405/article/details/100653731)
@@ -48,9 +50,13 @@
 
 [Typora激活方法](https://blog.csdn.net/weixin_43410827/article/details/122537229?utm_medium=distribute.pc_aggpage_search_result.none-task-blog-2~aggregatepage~first_rank_ecpm_v1~rank_v31_ecpm-1-122537229.pc_agg_new_rank&utm_term=typora序列号&spm=1000.2123.3001.4430)
 
+[如何调整Typora中的图片大小](https://blog.csdn.net/weixin_42703239/article/details/98885622)
+
 [NVDIA驱动下载](https://www.nvidia.cn/Download/index.aspx?lang=cn)
 
 [Visual Studio各个版本产品密钥](https://www.yesdotnet.com/archive/post/1644078895.html#mcetoc_1fr4gabfv62)
+
+
 
 ### Git
 
@@ -58,9 +64,11 @@
 
 [remote: Support for password authentication was removed on August 13, 2021](https://blog.csdn.net/yjw123456/article/details/119696726)
 
+## Coding
 
+[华为机试](https://www.nowcoder.com/exam/oj/ta?tpId=37)
 
-## C++
+### C++
 
 [replace替换字符串](https://blog.csdn.net/cai_niaocainiao/article/details/81260902)
 
@@ -80,7 +88,7 @@
 
 [C++将数据写入文件](https://blog.csdn.net/m0_38128647/article/details/76061420)
 
-## Python
+### Python
 
 [conda若下载很慢可以采用清华镜像源](https://blog.csdn.net/qq_41375609/article/details/103574507)
 
@@ -96,7 +104,7 @@
 
 
 
-### Pycharm
+#### Pycharm
 
 [终端显示中文乱码](https://cloud.tencent.com/developer/article/1674452)
 
@@ -104,17 +112,17 @@
 
 
 
-### TensorFlow
+#### TensorFlow
 
 [Anaconda环境下Tensorflow的安装与卸载](https://blog.csdn.net/dongcjava/article/details/109524981)
 
 
 
-### PyTorch
+#### PyTorch
 
 
 
-## Opencv
+## OpenCV
 
 ### OpenCV-Python
 
@@ -128,23 +136,105 @@
 
 [opencv-python模板匹配算公式](https://zhuanlan.zhihu.com/p/101374450)
 
+[图像分割方法总结-opencv-python](https://blog.csdn.net/qq_35498696/article/details/107074137)
+
+[如何使用传统图像处理方法进行大米的计数和长轴方向标记-opencv-python](https://blog.csdn.net/sgzqc/article/details/121000489)
+
+[一阶矩二阶矩-OpenCV-Python](https://blog.csdn.net/liyuanjinglyj/article/details/113916287)
+
+[一文弄懂图像的矩和相关应用](https://blog.csdn.net/sgzqc/article/details/120917688)
+
+### OpenCV-C++
+
+[空间矩算子特征矩一阶矩二阶矩中心矩重心目标方向-OpenCV](https://blog.csdn.net/yang6464158/article/details/42459595)
+
 
 
 ## Sensor Module
 
-### Intel RealSense
+### Intel RealSense D400 Series
 
 [intel RealSense python SDK](https://dev.intelrealsense.com/docs/python2)
 
 [RealSense D455的标定并运行VINS-FUSION](https://blog.csdn.net/qq_40186909/article/details/113104595)
 
+[realsenseD435i imu+双目标定](https://blog.csdn.net/xiaoxiaoyikesu/article/details/105646064)
+
 [Intel Realsense D435 Post-processing filters 后处理过滤器](https://blog.csdn.net/Dontla/article/details/103574458)
 
+[Intel Realsense API 汇总-----Python](https://blog.csdn.net/m0_46649553/article/details/121115998)
 
+[realsense SDK2.0学习（三）D435深度图片对齐到彩色图片-代码实现](https://blog.csdn.net/dieju8330/article/details/85300976)
+
+
+
+### Microsoft Azure Kinect
+
+
+
+## Mathematics
+
+### Linear Algebra
+
+[叉乘运算公式](https://baijiahao.baidu.com/s?id=1707870343684370670)
+
+[矩阵迹（trace）行列式（determinant）](https://blog.csdn.net/Anne033/article/details/108915986)
+
+[如何理解矩阵特征值的意义?](https://zhuanlan.zhihu.com/p/142597513)
+
+[线性代数精华——矩阵的特征值与特征向量](https://zhuanlan.zhihu.com/p/104980382)
+
+[反对称矩阵的基本性质](https://zhuanlan.zhihu.com/p/435306687)
+
+[奇异值分解（SVD）](https://zhuanlan.zhihu.com/p/29846048)
+
+[奇异值分解（SVD）的定义、证明、求法](https://zhuanlan.zhihu.com/p/399547902)
+
+[学习笔记之——Jacobian matrix（雅可比矩阵）](https://blog.csdn.net/gwplovekimi/article/details/104977255)
+
+[数学背景知识补充——雅可比矩阵](https://zhuanlan.zhihu.com/p/81102093)
+
+[如何理解相似矩阵？](https://zhuanlan.zhihu.com/p/31003468)
+
+[如何直观地理解「协方差矩阵」？](https://zhuanlan.zhihu.com/p/37609917)
+
+[矩阵形式下的最小二乘法推导](https://zhuanlan.zhihu.com/p/87582571)
+
+## Sensor Calibration
+
+[捆绑调整Bundle Adjustment](https://blog.csdn.net/Yong_Qi2015/article/details/84929868)
+
+[非线性优化（一）：优化方法](https://zhuanlan.zhihu.com/p/94589862)
+
+[线性回归：最小二乘法优化](https://blog.csdn.net/qq_43116030/article/details/104317249)
+
+### Camera
+
+[从零开始学习「张氏相机标定法」（三）推导求解](https://zhuanlan.zhihu.com/p/35391837)
+
+[单目相机标定结果的评估—重投影误差与畸变校正](https://blog.csdn.net/qq_42648534/article/details/120859429)
+
+[相机标定系列](https://blog.csdn.net/app_12062011/category_6331627.html)
+
+[相机标定之张正友标定法数学原理详解](https://zhuanlan.zhihu.com/p/94244568)
+
+[相机标定知识汇总](https://developer.orbbec.com.cn/forum_plate_module_details.html?id=3703)
+
+[四大坐标系转换](https://blog.csdn.net/chentravelling/article/details/53558096)
+
+[针孔相机标定-基于张正友标定法-Python](https://blog.csdn.net/qq_42258099/article/details/95232228)
+
+[鱼眼相机标定-基于张正友标定法-Python](https://blog.csdn.net/qq_42258099/article/details/95241443)
 
 ## Stereo Camera
 
+[一分钟详解「本质矩阵」推导过程](https://zhuanlan.zhihu.com/p/45443424)
 
+[双目视觉之单目相机标定-OpenCV-C++](https://www.cnblogs.com/zyly/p/9366080.html#_label2)
+
+[双目视觉之空间坐标计算-OpenCV-C++](https://www.cnblogs.com/zyly/p/9373991.html)
+
+[双目视觉标定程序详解-OpenCV-C++](https://www.cnblogs.com/polly333/p/5013505.html)
 
 ### Deep Stereo
 
@@ -158,6 +248,8 @@
 
 ### Stereo Matching
 
+#### Dense Matching
+
 [常用的块匹配算法](https://blog.csdn.net/hujingshuang/article/details/47759579)
 
 [基于SSD的图像匹配算法](https://www.jianshu.com/p/de8a1817ac20)
@@ -167,6 +259,12 @@
 [一文读懂经典双目稠密匹配算法SGM](https://zhuanlan.zhihu.com/p/49272032)
 
 
+
+#### Sparse Matching
+
+[传统计算机视觉中图像特征匹配方法的原理介绍（SIFT 和 ORB）](https://zhuanlan.zhihu.com/p/52140541)
+
+[（四十二）特征点检测-ORB](https://zhuanlan.zhihu.com/p/91479558)
 
 ### Benchmark
 
@@ -179,10 +277,6 @@
 
 
 ## Image Processing
-
-[python 图像分割方法总结](https://blog.csdn.net/qq_35498696/article/details/107074137)
-
-
 
 ### ISP
 
@@ -222,6 +316,24 @@
 
 
 
+## SLAM
+
+[欧拉角和旋转矩阵相互转换](https://blog.csdn.net/u012423865/article/details/78219787)
+
+[捆绑调整BA](https://blog.csdn.net/weixin_43384504/article/details/104510221)
+
+
+
+## LIDAR
+
+[一文让你明白什么是面阵固态激光雷达 (Laser Detection and Ranging)](https://www.ebaina.com/articles/140000005027)
+
+
+
+### Single-photon LIDAR
+
+
+
 ## Optics & Imaging
 
 [对焦是否影响相机内参](https://blog.csdn.net/qq_33591712/article/details/104225926)
@@ -238,7 +350,7 @@
 
 [如何计算弥散圆直径](https://blog.csdn.net/Song_Esther/article/details/104721352)
 
-
+[图像缩放后相机内参如何变化的](https://zhuanlan.zhihu.com/p/87185139)
 
 ## Structured Light
 
@@ -258,4 +370,6 @@
 
 [花式破解人脸识别技术](https://tech.ifeng.com/c/7gBwDq1OJEu)
 
-[一文让你明白什么是面阵固态激光雷达 (Laser Detection and Ranging)](https://www.ebaina.com/articles/140000005027)
+[智能门锁方案浅析](https://zhuanlan.zhihu.com/p/386054374)
+
+[多模态PCANet：一种高精度、低复杂度的鲁棒3D活体检测方案](https://blog.csdn.net/smarttof/article/details/109177778)

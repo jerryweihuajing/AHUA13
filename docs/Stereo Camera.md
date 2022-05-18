@@ -3,12 +3,59 @@
 - real-sense作光源，自研图像传感器采图的采集方案
 - 同行：钰立微，intel-realsense，indemind，inuitive（双目芯片）
 - 一般的CPUGPU跑双目稠密匹配算法都会很吃力，只有ASIC芯片做硬化才能让双目的性能达到预期，算法IP化
+- 商汤人脸门锁：2.5D根据双目光度的差异
+- 商服机器人，仓储机器人：物流外卖最后一公里，解决疫情背景下的配送问题
+- 解决Corner Case需要写很多逻辑进去
 
-## 1 Stereo Matching
+## Corner Case
 
-### 1.1 Sparse Matching
+（1） 光学失真和噪声（亮度、色调、饱和度等失衡）
 
-#### 1.1.1 L-K Optical Flow
+**![img](resources/Stereo%20Camera/1328274-20180908224127446-1398055087.png)**
+
+（2） 平滑表面的镜面反射：高光处无细节，无特征点。
+
+**![img](resources/Stereo%20Camera/1328274-20180908224224045-1143846851.png)**
+
+（3） 投影缩减（Foreshortening）
+
+摄影测量学中的一个概念，指物体近大远小。由于相对左右照相机距离的不同，看到的同一个物体在左右视图中的投影尺寸也会不同，造成匹配障碍。
+
+ **![img](resources/Stereo%20Camera/1328274-20180908224309154-909336673.png)**
+
+（4） 透视失真（Perspective distortions）
+
+由于镜头畸变造成的被摄物体失真。譬如画面中的鼻子被拉长。
+
+**![img](https://images2018.cnblogs.com/blog/1328274/201809/1328274-20180908224319589-1813346901.png)**
+
+（5） 低纹理（Low texture）
+
+无细节。**主动纹理光**可以解决这一问题。(可以加入光源，投影一个纹理进去)
+
+ **![img](https://images2018.cnblogs.com/blog/1328274/201809/1328274-20180908224332132-2005675511.png)**
+
+（6） 重复纹理（Repetitive/ambiguous patterns）
+
+高度相似的特征点描述向量接近，行扫描时难以判断哪一个是对应的特征点。
+
+ **![img](resources/Stereo%20Camera/1328274-20180908224342609-168239588.png)**
+
+（7） 透明物体：同低纹理。
+
+ **![img](resources/Stereo%20Camera/1328274-20180908224355064-1385165385.png)**
+
+（8） 重叠和非连续
+
+纹理中断，不利于行查找。
+
+ ![img](resources/Stereo%20Camera/1328274-20180908224405879-1714415520.png)
+
+## Stereo Matching
+
+### Sparse Matching
+
+#### L-K Optical Flow
 
 发现约束后的特征点存在一定的偏差，考虑使用基于块匹配的方式加以搜索：
 
@@ -20,25 +67,21 @@
 
 探索了不同特征匹配方式的效果
 
-### 1.2 Dense Matching
+### Dense Matching
 
 仿真数据集来看SGM算法效果好于ADC？不加散斑的情况下
 
-### 1.2.1 SGM
+#### SGM
 
 
 
-### 1.2.2 ADC
+#### ADC
 
 
 
-## 2 Stereo Calibration
-
-### 2.1 Off-line Calibration
 
 
 
-### 2.2 Self-Calibration
 
 
 
