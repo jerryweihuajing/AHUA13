@@ -102,6 +102,18 @@ sed -i 's/++11/++14/g' CMakeLists.txt
 
 - ./visualizeGeometry: error while loading shared libraries: libpango_windowing.so: cannot open shared object file: No such file or directory：需要添加系统环境变量
 
+- libgconf-2.so.4: cannot open shared object file: No such file or directory
+
+```
+sudo apt-get install libgconf-2-4
+```
+
+- unable to fetch问题
+
+```
+切换系统的安装源为国内阿里云的镜像
+```
+
 
 
 ## Git

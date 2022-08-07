@@ -3,7 +3,7 @@
 - 光心在像平面的前面，一般位于第一片lens和第二片lens之间
 - 无穷远处的光线汇聚在像方焦点，这一原理决定了光圈的大小，物距像距焦距之间的关系![查看源图像](resources/Optics%20&%20Imaging/THINLENS-S-600w.gif)
 
-## Camera Intrinsic
+## Camera Intrinsics
 
 ### Focusing
 
@@ -48,3 +48,8 @@ fx'=s×fx, fy'=s×fy
 失焦弥散圆直径与物体的深度之间的关系：
 
 ![Diameter of Confusion Circle Curve](resources/Optics%20&%20Imaging/Diameter%20of%20Confusion%20Circle%20Curve.png)
+
+## 4 Shutter
+
+global shutter全局，价格贵，分辨低，一般对运动拖影有要求情况使用
+rolling逐行扫描，价格便宜，分辨率高，一般用于成像，对运动速度没有特别要求

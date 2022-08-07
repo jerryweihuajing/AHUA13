@@ -4,6 +4,10 @@
 
 
 
+## CorelDraw
+
+
+
 ## MkDocs
 
 [Mkdocs中文文档](https://blog.csdn.net/p942005405/article/details/100653731)
@@ -20,8 +24,6 @@
 
 [Ubuntu增加桌面图标](https://blog.csdn.net/jianming21/article/details/89716245)
 
-[Ubuntu下配置Eigen3环境](https://blog.csdn.net/p942005405/article/details/100653731)
-
 [Ubuntu配置Pangolin环境](https://blog.csdn.net/baidu_38505667/article/details/108715627)
 
 [Ubuntu配置环境变量](https://blog.csdn.net/lucky_ricky/article/details/74330806)
@@ -32,11 +34,27 @@
 
 [Ubuntu Sophus生成过程中fmt/core.h:1711:3: error: static assertion](https://blog.csdn.net/baidu_38431960/article/details/123529425)
 
+[Ubuntu下如何用命令行运行deb安装包](https://blog.csdn.net/qq_41375318/article/details/115616234)
+
+[ubuntu系统下运行可执行文件 (application/x-executable)](https://blog.csdn.net/qq_39088036/article/details/88761123)
+
+[Ubuntu can't fetch的问题](https://blog.csdn.net/cai_niao_fky/article/details/124817124)
+
+[Linux 下报错没有 io.h 等文件解决方法](https://blog.csdn.net/u013894391/article/details/88992923)
+
+[ubuntu20.04开机黑屏解决方法](https://blog.csdn.net/u012614287/article/details/122919504)
+
 
 
 ### Windows
 
 [Win11自带的xbox录屏工具灰色无法使用的问题](https://blog.csdn.net/caih2000/article/details/122940797)
+
+### ROS
+
+[Ubuntu install of ROS](http://wiki.ros.org/Installation/Ubuntu)
+
+[在Ubuntu20.04中安装ROS Noetic](https://blog.csdn.net/r1141207831/article/details/106327172)
 
 
 
@@ -64,6 +82,18 @@
 
 [remote: Support for password authentication was removed on August 13, 2021](https://blog.csdn.net/yjw123456/article/details/119696726)
 
+[查看git的用户名和密码](https://blog.csdn.net/LOVE_Me__/article/details/109240187)
+
+[为GitLab帐号添加SSH keys并连接GitLab](https://blog.csdn.net/xyzchenxiaolin/article/details/51852333)
+
+
+
+### VMware
+
+[删除特定 USB 设备的连接规则](https://docs.vmware.com/cn/VMware-Workstation-Player-for-Windows/16.0/com.vmware.player.win.using.doc/GUID-A2D17720-C0CA-4636-BAFB-6DBC21F7FAC8.html#GUID-A2D17720-C0CA-4636-BAFB-6DBC21F7FAC8)
+
+
+
 ## Coding
 
 [华为机试](https://www.nowcoder.com/exam/oj/ta?tpId=37)
@@ -88,6 +118,16 @@
 
 [C++将数据写入文件](https://blog.csdn.net/m0_38128647/article/details/76061420)
 
+[C/C++编程笔记：什么是NaN？如何检查NaN？](https://blog.csdn.net/qq_42366672/article/details/115381154)
+
+[C++逐行读取文本文件的正确做法](https://blog.csdn.net/clever101/article/details/47756047)
+
+[C++STL中vector容器 begin()与end()、front()与back()、find()函数的用法](https://blog.csdn.net/duan19920101/article/details/51679517?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-1-51679517-blog-51148107.pc_relevant_multi_platform_whitelistv1&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-1-51679517-blog-51148107.pc_relevant_multi_platform_whitelistv1&utm_relevant_index=2)
+
+[C++ String 与 char* 相互转换](https://cloud.tencent.com/developer/article/1525205)
+
+
+
 ### Python
 
 [conda若下载很慢可以采用清华镜像源](https://blog.csdn.net/qq_41375609/article/details/103574507)
@@ -102,6 +142,16 @@
 
 [Python中时间与时间戳之间的转换](https://blog.csdn.net/google19890102/article/details/51355282)
 
+[Matplotlib作图常用marker类型、线型和颜色](https://www.cnblogs.com/Big-Big-Watermelon/p/14052165.html)
+
+[python操作配置文件yaml数据读取数据写入](https://blog.csdn.net/guiyin1150/article/details/109341626)
+
+[Excel xlsx file； not supported(xlrd版本不兼容问题，完美解决！)](https://blog.csdn.net/qq_42136832/article/details/116223364)
+
+[Python曲线拟合详解](http://lijin-thu.github.io/04.%20scipy/04.04%20curve%20fitting.html)
+
+
+
 
 
 #### Pycharm
@@ -109,6 +159,8 @@
 [终端显示中文乱码](https://cloud.tencent.com/developer/article/1674452)
 
 [Pycharm中放大和缩小代码界面](https://blog.csdn.net/qq_38563206/article/details/121065835)
+
+[PyCharm启动时进入欢迎界面](https://blog.csdn.net/qq_42680327/article/details/98501346)
 
 
 
@@ -122,7 +174,35 @@
 
 
 
+## MATLAB
+
+[Matlab2020b在双目标定的过程中会出现要串联的数组维度不一致的问题](https://blog.csdn.net/qq_56839117/article/details/125216637)
+
+[Camera Calibration - MATLAB & Simulink - MathWorks 中国](https://ww2.mathworks.cn/help/vision/camera-calibration.html?s_tid=CRUX_lftnav)
+
+[Using the Stereo Camera Calibrator App - MATLAB & Simulink - MathWorks 中国](https://ww2.mathworks.cn/help/vision/ug/using-the-stereo-camera-calibrator-app.html)
+
+
+
+## Eigen
+
+[Visual Studio下Eigen库环境配置](https://blog.csdn.net/weixin_44391223/article/details/125494137)
+
+[Ubuntu下配置Eigen3环境](https://blog.csdn.net/p942005405/article/details/100653731)
+
+
+
+## PCL
+
+
+
+
+
 ## OpenCV
+
+[OpenCV官网](https://docs.opencv.org/4.x/index.html)
+
+
 
 ### OpenCV-Python
 
@@ -144,9 +224,33 @@
 
 [一文弄懂图像的矩和相关应用](https://blog.csdn.net/sgzqc/article/details/120917688)
 
+[OpenCV - 直方图均衡化（Python实现）](https://blog.csdn.net/qq_40344307/article/details/93578188)
+
+[python实现连通域处理函数](https://blog.csdn.net/qq_40784418/article/details/106023288)
+
+[Python-OpenCV中的resize()函数](https://www.cnblogs.com/lfri/p/10596530.html)
+
+[python之详细图像仿射变换讲解（图像平移、旋转、缩放、翻转）](https://zhuanlan.zhihu.com/p/220109909)
+
+[使用OpenCV的FileStorage模块持久化存取数据(Python)](http://zhaoxuhui.top/blog/2018/06/29/PythonOpenCVFileStorage.html)
+
+
+
 ### OpenCV-C++
 
+[OpenCV中图像水平拼接函数hconcat的使用](https://blog.csdn.net/jndingxin/article/details/119605081)
+
 [空间矩算子特征矩一阶矩二阶矩中心矩重心目标方向-OpenCV](https://blog.csdn.net/yang6464158/article/details/42459595)
+
+[OpenCV中6种访问Mat元素的方法](https://blog.csdn.net/lyq_12/article/details/84316288)
+
+[OpenCV—连通域分析connectedComponentsWithStats()](https://blog.csdn.net/i_chaoren/article/details/78358297)
+
+[【OpenCV学习笔记】之仿射变换（Affine Transformation）](https://blog.csdn.net/zhu_hongji/article/details/81660893)
+
+[OpenCV中图像的浅拷贝与深拷贝](https://blog.csdn.net/qq_23968185/article/details/51242686)
+
+[OpenCV —数据持久化: FileStorage类的数据存取操作与示例](https://blog.csdn.net/iracer/article/details/51339377)
 
 
 
@@ -200,7 +304,11 @@
 
 [矩阵形式下的最小二乘法推导](https://zhuanlan.zhihu.com/p/87582571)
 
-## Sensor Calibration
+### Numeric Analysis
+
+[如何通俗易懂地讲解牛顿迭代法求开方（数值分析）？](https://www.zhihu.com/question/20690553)
+
+## Camera Calibration
 
 [捆绑调整Bundle Adjustment](https://blog.csdn.net/Yong_Qi2015/article/details/84929868)
 
@@ -208,7 +316,23 @@
 
 [线性回归：最小二乘法优化](https://blog.csdn.net/qq_43116030/article/details/104317249)
 
-### Camera
+
+
+### Kalibr
+
+[Ubuntu20.04安装kalibr](https://blog.csdn.net/xiaojinger_123/article/details/121292803)
+
+[Kalibr GitHub](https://github.com/ethz-asl/kalibr/wiki)
+
+[Kalibr 标定双目内外参数以及 IMU 外参数](https://blog.csdn.net/heyijia0327/article/details/83583360)
+
+[AprilTags二维码的检测与应用](https://blog.csdn.net/weixin_41010198/article/details/116014543)
+
+[AprilTag官网](https://april.eecs.umich.edu/software/apriltag)
+
+
+
+### Pinhole
 
 [从零开始学习「张氏相机标定法」（三）推导求解](https://zhuanlan.zhihu.com/p/35391837)
 
@@ -224,17 +348,67 @@
 
 [针孔相机标定-基于张正友标定法-Python](https://blog.csdn.net/qq_42258099/article/details/95232228)
 
-[鱼眼相机标定-基于张正友标定法-Python](https://blog.csdn.net/qq_42258099/article/details/95241443)
+[重投影误差的计算-C++](https://zhuanlan.zhihu.com/p/358074262)
 
-## Stereo Camera
+[OpenCV 标定摄像头(Python 版本代码，视频中标定，亲测可用)](https://blog.csdn.net/briblue/article/details/86569448)
 
-[一分钟详解「本质矩阵」推导过程](https://zhuanlan.zhihu.com/p/45443424)
+[OpenCV 相机校正过程中，calibrateCamera函数projectPoints函数的重投影误差的分析](https://blog.csdn.net/qq_32998593/article/details/113063216)
+
+[openCV函数用法之 findChessboardCorners](https://blog.csdn.net/m0_49332456/article/details/120873731)
+
+[如何检测棋盘格](https://blog.csdn.net/a361251388leaning/article/details/53401651)
+
+[如何检测圆点标定板](https://blog.csdn.net/a361251388leaning/article/details/54171233)
+
+[圆点标定板的标志点提取、标定实验总结](https://blog.csdn.net/gggttt222/article/details/92976511)
+
+[MATLAB/OpenCV--基于棋盘格/对称圆点/非对称圆点--相机标定教程](https://blog.csdn.net/m0_51729073/article/details/121268125)
+
+[OpenCv相机标定——圆形标定板标定](https://blog.csdn.net/Ketal_N/article/details/88829741)
+
+[opencv 生成标定板(c++)](https://blog.csdn.net/janick2018/article/details/89407970)
+
+[C++ OpenCV绘制非对称圆点标定图案](https://blog.csdn.net/weixin_43560489/article/details/122290471)
 
 [双目视觉之单目相机标定-OpenCV-C++](https://www.cnblogs.com/zyly/p/9366080.html#_label2)
+
+
+
+### Fisheye
+
+[鱼眼镜头的成像原理到畸变矫正（完整版）](https://blog.csdn.net/qq_16137569/article/details/112398976)
+
+[鱼眼相机标定-基于张正友标定法-Python](https://blog.csdn.net/qq_42258099/article/details/95241443)
+
+[鱼眼相机标定以及OpenCV实现](https://blog.csdn.net/u010784534/article/details/50474371)
+
+
+
+### Stereo
+
+[《Learning OpenCV3》ch19：双目标定与立体匹配-重投影矩阵](https://www.jianshu.com/p/6342eb4d9a63)
+
+[一分钟详解「本质矩阵」推导过程](https://zhuanlan.zhihu.com/p/45443424)
 
 [双目视觉之空间坐标计算-OpenCV-C++](https://www.cnblogs.com/zyly/p/9373991.html)
 
 [双目视觉标定程序详解-OpenCV-C++](https://www.cnblogs.com/polly333/p/5013505.html)
+
+
+
+### Undistortion
+
+[OpenCV畸变校正原理以及损失有效像素原理分析](https://www.cnblogs.com/riddick/p/6711263.html)
+
+[Opencv中的两种去畸变函数](https://zhuanlan.zhihu.com/p/66863619)
+
+### Stereo Rectification
+
+
+
+## Stereo Camera
+
+
 
 ### Deep Stereo
 
@@ -277,6 +451,10 @@
 
 
 ## Image Processing
+
+[图像处理之双线性插值法](https://blog.csdn.net/qq_37577735/article/details/80041586)
+
+[最近邻插值、双线性插值理论，通过仿射变换使用插值算法](https://blog.csdn.net/yangdashi888/article/details/53114379)
 
 ### ISP
 
@@ -321,6 +499,16 @@
 [欧拉角和旋转矩阵相互转换](https://blog.csdn.net/u012423865/article/details/78219787)
 
 [捆绑调整BA](https://blog.csdn.net/weixin_43384504/article/details/104510221)
+
+
+
+### PnP
+
+[如何理解PnP问题的DLT解法以及Python编程实践](https://blog.csdn.net/varyshare/article/details/104395578)
+
+[PnP(Perspective-n-Point)问题：各种算法总结分析](https://zhuanlan.zhihu.com/p/399140251)
+
+[opencv solvepnp的用法和原理示意](https://blog.csdn.net/weixin_45790559/article/details/107952221)
 
 
 
@@ -373,3 +561,41 @@
 [智能门锁方案浅析](https://zhuanlan.zhihu.com/p/386054374)
 
 [多模态PCANet：一种高精度、低复杂度的鲁棒3D活体检测方案](https://blog.csdn.net/smarttof/article/details/109177778)
+
+
+
+## Multi-Sensor Fusion
+
+[多传感器融合（一）](https://www.cnblogs.com/wujianming-110117/p/12963151.html)
+
+[多传感器融合（二）](https://www.cnblogs.com/wujianming-110117/p/12963182.html)
+
+[多传感器融合（三）](https://www.cnblogs.com/wujianming-110117/p/12963210.html)
+
+[9种自动驾驶传感器融合算法](https://zhuanlan.zhihu.com/p/430323552)
+
+
+
+### Multi-Sensor Calibration
+
+[多传感器融合定位理论基础（十三）：多传感器时空标定](https://zhuanlan.zhihu.com/p/156176570)
+
+[多传感器融合标定方法汇总](https://zhuanlan.zhihu.com/p/268908000)
+
+[多视角相机联合标定算法multical介绍](https://zhuanlan.zhihu.com/p/381903287)
+
+[激光雷达和相机的联合标定的实现（源代码，干货满满）](https://zhuanlan.zhihu.com/p/348122380)
+
+
+
+### Surrounding View
+
+[python 一份简单的车辆环视全景系统实现图像拼接缝融合](https://blog.csdn.net/c2a2o2/article/details/110954604)
+
+[汽车环视算法原理及其实现](https://blog.csdn.net/lwx309025167/article/details/120096776)
+
+[自动驾驶——自动泊车之AVM环视系统算法框架](https://zhuanlan.zhihu.com/p/534553717)
+
+[Create 360° Bird's-Eye-View Image Around a Vehicle](https://ww2.mathworks.cn/help/driving/ug/create-360-birds-eye-view-image.html)
+
+[Online Camera Pose Optimization for the Surround-view System](https://cslinzhang.github.io/CamPoseOpt/)
